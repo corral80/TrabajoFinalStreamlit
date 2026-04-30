@@ -8,9 +8,8 @@ from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 
 #Seteamos constantes de url base para cargar los archivos de datos y geoespaciales
-BASE_DIR = Path(__file__).resolve().parent
-DATA_FILE = BASE_DIR / "dataset_tarea_ind.xlsx"
-GEOJSON_FILE = BASE_DIR / "comunas_metropolitana.geojson"
+DATA_FILE = "dataset_tarea_ind.xlsx"
+GEOJSON_FILE = "comunas_metropolitana.geojson"
 
 #Realizamos la configuración inicial de la página de Streamlit
 st.set_page_config(
